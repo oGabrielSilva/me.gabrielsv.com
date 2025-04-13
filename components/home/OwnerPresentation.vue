@@ -41,8 +41,10 @@
       </div>
 
       <div class="col-lg-4">
-        <section class="py-5 py-lg-0">
-          <div class="ms-lg-auto ratio ratio-1x1">
+        <section
+          class="py-5 py-lg-0 d-flex justify-content-center justify-content-sm-start justify-content-lg-end"
+        >
+          <div class="ratio ratio-1x1">
             <img
               :src="conf.owner.imageURI"
               :alt="conf.owner.fullName"
