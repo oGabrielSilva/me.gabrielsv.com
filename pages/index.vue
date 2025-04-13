@@ -1,8 +1,14 @@
 <template>
   <main>
-    <div class="container pb-5">
+    <section class="container pb-5">
       <HomeOwnerPresentation />
-    </div>
+    </section>
+
+    <hr class="mb-0" />
+
+    <section class="pt-5 bg-body-secondary">
+      <HomeMyServices />
+    </section>
   </main>
 </template>
 

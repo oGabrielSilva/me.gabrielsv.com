@@ -9,8 +9,8 @@ export default withNuxt(
         'error',
         {
           html: {
-            void: 'any',
-            normal: 'never',
+            void: 'always',
+            normal: 'always',
             component: 'always',
           },
           svg: 'always',
