@@ -15,3 +15,8 @@ body {
   overflow-x: hidden;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
+
+.py-6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}

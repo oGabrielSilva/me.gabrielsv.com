@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@pinia/nuxt'],
+  modules: ['@nuxt/eslint', '@pinia/nuxt', '@nuxt/icon'],
   app: {
     head: {
       link: [
@@ -80,5 +80,8 @@ export default defineNuxtConfig({
   ],
   pinia: {
     storesDirs: ['./stores/**'],
+  },
+  icon: {
+    mode: 'svg',
   },
 })

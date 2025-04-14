@@ -4,9 +4,15 @@
       <HomeOwnerPresentation />
     </section>
 
-    <hr class="mb-0" />
+    <hr class="my-5" />
 
-    <section class="pt-5">
+    <section class="py-6">
+      <HomeAbout />
+    </section>
+
+    <hr class="my-5" />
+
+    <section class="py-6">
       <HomeMyServices />
     </section>
   </main>

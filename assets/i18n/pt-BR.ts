@@ -15,7 +15,7 @@ export default {
   ownerTextShort: 'Escrevo código, desvendo problemas e construo soluções.',
   knowMe: 'Me conheça:',
 
-  myServices: 'Meus serviços',
+  myServicesTitle: 'Precisa de algum serviço?',
   myServicesText:
     'Cada projeto é único. Meu objetivo é entender sua necessidade e entregar um software funcional, escalável e com visual moderno. Abaixo, você pode conhecer os serviços que ofereço.',
 
@@ -52,5 +52,13 @@ export default {
       ],
       icon: 'fa-solid fa-envelope',
     },
+  ],
+
+  aboutTitle: 'Passado, presente e código',
+
+  aboutParagraphs: [
+    'Oi! Me chamo <strong>Gabriel</strong> e gosto de <strong>criar coisas na web</strong>. Meu interesse por desenvolvimento começou lá em <strong>2016</strong>, quando descobri o <strong>RPG Maker</strong>. Brincar de desenvolver jogos me ensinou muito sobre <strong>programação</strong>. Ahh, não demorou muito até eu cair de paraquedas no canal do <strong>Gustavo Guanabara</strong> (<a href="https://www.youtube.com/c/CursoemVídeo" target="_blank" rel="noopener noreferrer"><strong>Curso em Vídeo</strong></a>) e conhecer o <strong>JavaScript</strong>, comprei até um livro sobre. Mas não deu outra, criar e adaptar tanto trecho de código me trouxe <strong>aqui onde estou hoje</strong>, e <strong>nunca me arrependi</strong>.',
+    'Hoje, sou formado em <strong>Gestão da Tecnologia da Informação</strong> pelo <strong>Instituto Federal do Sertão Pernambucano</strong>, mas atuo principalmente na área de <strong>desenvolvimento</strong>.',
+    'Atualmente, tenho trabalhado ao lado da <a href="https://www.agencia.vision" target="_blank" rel="noopener noreferrer"><strong>Agência Vision</strong></a>.',
   ],
 }

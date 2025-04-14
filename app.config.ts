@@ -50,5 +50,31 @@ export default defineAppConfig({
         icon: 'fa-solid fa-envelope',
       },
     ],
+    skills: [
+      { name: 'Nuxt', icon: 'lineicons:nuxt', uri: 'https://nuxt.com/' },
+      { name: 'Vue.js', icon: 'fa-brands:vuejs', uri: 'https://vuejs.org/' },
+      { name: 'React.js', icon: 'fa6-brands:react', uri: 'https://react.dev/' },
+      { name: 'Next.js', icon: 'ri:vercel-fill', uri: 'https://nextjs.org/' },
+      {
+        name: 'TypeScript',
+        icon: 'akar-icons:typescript-fill',
+        uri: 'https://www.typescriptlang.org/',
+      },
+      {
+        name: 'Nest.js',
+        icon: 'vscode-icons:file-type-nestjs',
+        uri: 'https://nestjs.com/',
+      },
+      {
+        name: 'Node.js',
+        icon: 'fa6-brands:node-js',
+        uri: 'https://nodejs.org/',
+      },
+      {
+        name: 'WordPress',
+        icon: 'fa6-brands:wordpress',
+        uri: 'https://wordpress.org/',
+      },
+    ],
   },
 })

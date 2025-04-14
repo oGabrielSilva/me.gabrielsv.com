@@ -1,15 +1,15 @@
 <template>
   <div data-container class="d-flex justify-content-center align-items-center">
-    <div
-      class="row w-100 py-4 text-center text-sm-start align-items-center flex-lg-row flex-column-reverse"
-    >
+    <div class="row w-100 py-4 text-center text-sm-start align-items-center">
       <div class="col-lg-8">
         <section>
           <div>
-            <h1>
+            <span class="text-warning-emphasis">
               {{ strings.hello }}
+            </span>
+            <h1>
               <strong>{{ conf.owner.firstName }}</strong>
-              {{ strings.here }}
+              {{ strings.here }}.
             </h1>
             <p class="pt-4">
               {{ strings.ownerText }}
@@ -39,25 +39,6 @@
           </nav>
         </section>
       </div>
-
-      <div class="col-lg-4">
-        <section
-          class="py-5 py-lg-0 d-flex justify-content-center justify-content-sm-start justify-content-lg-end"
-        >
-          <div class="ratio ratio-1x1">
-            <img
-              :src="conf.owner.imageURI"
-              :alt="conf.owner.fullName"
-              class="img-fluid rounded-circle object-fit-cover w-100 h-100"
-              width="256"
-              height="256"
-              :title="conf.owner.fullName"
-              draggable="false"
-              loading="lazy"
-            />
-          </div>
-        </section>
-      </div>
     </div>
   </div>
 </template>
@@ -68,16 +49,13 @@ const strings = computed(() => useLanguageStore().strings)
 </script>
 
 <style scoped>
+@media (min-width: 333px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
 [data-container] {
   min-height: 85vh;
-}
-
-img {
-  border: 6px solid;
-}
-
-.ratio {
-  max-width: 256px;
-  max-height: 256px;
 }
 </style>

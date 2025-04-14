@@ -1,7 +1,7 @@
 <template>
   <div class="container-xl text-center text-lg-start">
     <h1 class="">
-      {{ strings.myServices }}
+      {{ strings.myServicesTitle }}
     </h1>
 
     <p class="pt-3">{{ strings.myServicesText }}</p>
