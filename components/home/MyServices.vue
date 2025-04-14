@@ -43,7 +43,6 @@ const strings = computed(() => useLanguageStore().strings)
 }
 
 .card-hover {
-  border: 1px solid transparent;
   background-color: var(--bs-body-bg);
   color: var(--bs-body-color);
 }

@@ -6,7 +6,7 @@
 
     <hr class="mb-0" />
 
-    <section class="pt-5 bg-body-secondary">
+    <section class="pt-5">
       <HomeMyServices />
     </section>
   </main>
