@@ -29,6 +29,7 @@
         <li v-for="(skill, i) in conf.owner.skills" :key="i">
           <a
             class="link-body-emphasis text-decoration-none skill-icon d-flex gap-2 justify-content-center flex-column align-items-center"
+            :class="getRandomDirection()"
             :href="skill.uri"
             target="_blank"
             rel="noopener noreferrer"
@@ -55,10 +56,32 @@
 const strings = computed(() => useLanguageStore().strings)
 
 const conf = useAppConfig()
+
+function getRandomDirection() {
+  return Math.random() < 0.5 ? 'left' : 'right'
+}
 </script>
 
 <style>
+.skill-icon {
+  transition: all 0.3s ease-in-out;
+}
+
 .skill-icon * {
   fill: var(--bs-body-color);
+}
+
+.skill-icon:hover * {
+  fill: var(--bs-primary-text-emphasis);
+  color: var(--bs-primary-text-emphasis);
+  transform-origin: center;
+}
+
+.skill-icon.left:hover {
+  transform: rotate(-6deg);
+}
+
+.skill-icon.right:hover {
+  transform: rotate(6deg);
 }
 </style>
