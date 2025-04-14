@@ -1,3 +1,4 @@
+import enUS from '~/assets/i18n/en-US'
 import ptBR from '~/assets/i18n/pt-BR'
 
 export default defineAppConfig({
@@ -15,7 +16,7 @@ export default defineAppConfig({
       key: 'otech__lang',
     },
     default: ptBR,
-    languages: [ptBR],
+    languages: [ptBR, enUS],
   },
   owner: {
     firstName: 'Gabriel',

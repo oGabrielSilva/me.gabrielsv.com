@@ -5,7 +5,7 @@ export default {
     shortLabel: 'Brasil',
   },
   appTitle: 'Gabriel Silva | oTech',
-  appFullTitle: 'oTech - Open Source Technology | by Gabriel Silva',
+  appFullTitle: 'oTech | by Gabriel Silva',
   logoDescription: 'Logo do site e link para a página inicial',
   here: 'aqui',
 

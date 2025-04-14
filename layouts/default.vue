@@ -6,6 +6,7 @@
     <section>
       <slot />
     </section>
+
     <hr class="my-5" />
 
     <UiFooter />
