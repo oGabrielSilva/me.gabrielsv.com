@@ -61,4 +61,8 @@ export default {
     'Hoje, sou formado em <strong>Gestão da Tecnologia da Informação</strong> pelo <strong>Instituto Federal do Sertão Pernambucano</strong>, mas atuo principalmente na área de <strong>desenvolvimento</strong>.',
     'Atualmente, tenho trabalhado ao lado da <a href="https://www.agencia.vision" target="_blank" rel="noopener noreferrer"><strong>Agência Vision</strong></a>.',
   ],
+
+  cnpj: 'CNPJ',
+  designedAndDevelopedBy: 'Projetado e desenvolvido por ',
+  allRightsReserved: 'Todos os direitos reservados.',
 }

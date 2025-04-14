@@ -76,5 +76,6 @@ export default defineAppConfig({
         uri: 'https://wordpress.org/',
       },
     ],
+    cnpj: '57.998.870/0001-19',
   },
 })
